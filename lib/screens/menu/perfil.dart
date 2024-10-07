@@ -51,9 +51,10 @@ class _PerfilState extends State<Perfil> {
 
   Future getConnection() async {
     conn = await MySQLConnection.createConnection(
-      host: '10.0.2.2',
-      port: 3306,
-      userName: 'root',
+      host: '',
+      port: ,
+      userName: '',
+      password: '',
       password: '@Kinafox223',
       databaseName: 'appbarber',
     );
